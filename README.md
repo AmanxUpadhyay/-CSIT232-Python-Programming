@@ -1,0 +1,1 @@
+Course Objectives: This course aims at • Provide in-depth knowledge of developing and debugging Python Programs. • Illustrate and manipulate core data structures like Lists, Dictionaries, Tuples, and Strings. • Understand the concept of files and exception handling.

@@ -1,3 +1,10 @@
+#
+#  * Author: Aman Upadhyay
+#  * Date: 7/03/2022
+#  * Email: amanupadhyay0208@gmail.com
+#  * GitHub: https://github.com/AmanxUpadhyay
+#
+
 # TODO
 # * Ask the user to enter a list containing numbers between 1 and 12. Then replace all of the entries in the list that are greater than 10 with 10.
 ContainList = []

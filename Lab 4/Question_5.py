@@ -1,3 +1,10 @@
+#
+#  * Author: Aman Upadhyay
+#  * Date: 7/03/2022
+#  * Email: amanupadhyay0208@gmail.com
+#  * GitHub: https://github.com/AmanxUpadhyay
+#
+
 # TODO
 # * Ask the user to enter a list of strings. Create a new list that consists of those strings with their first characters removed.
 UserProvidedString = []

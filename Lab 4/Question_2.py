@@ -1,3 +1,10 @@
+#
+#  * Author: Aman Upadhyay
+#  * Date: 7/03/2022
+#  * Email: amanupadhyay0208@gmail.com
+#  * GitHub: https://github.com/AmanxUpadhyay
+#
+
 import random
 
 # * Write a program that generates a list of 20 random numbers between 1 and 100.

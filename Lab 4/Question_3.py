@@ -1,3 +1,10 @@
+#
+#  * Author: Aman Upadhyay
+#  * Date: 7/03/2022
+#  * Email: amanupadhyay0208@gmail.com
+#  * GitHub: https://github.com/AmanxUpadhyay
+#
+
 # TODO
 # * Start with the List[8, 9, 10].
 StartList = [8, 9, 10]

@@ -2,20 +2,30 @@
 
 import onetimepad as otp
 
-# Take String from user and convert into Lowercase
-message = input('Enter the message: ').lower()
+# Function to encrypt the message
+def encrypt(message, key):
+    encrypted_message = otp.encrypt(message, key)
+    return encrypted_message
 
-# Take key from user and convert into Lowercase
+# Function to decrypt the message
+def decrypt(encrypted_message, key):
+    decrypted_message = otp.decrypt(encrypted_message, key)
+    return decrypted_message
+
+# Driver code
+message = input('Enter the message: ').lower()
 key = input('Enter the key: ').lower()
 
-# Encrypt the message
-encrypted_message = otp.encrypt(message, key)
-
-# Print the encrypted message
-print('Encrypted message: ', encrypted_message)
-
-# Decrypt the message
-decrypted_message = otp.decrypt(encrypted_message, key)
-
-# Print the decrypted message
-print('Decrypted message: ', decrypted_message)
+while True:
+    print('\n1. Encrypt the message\n2. Decrypt the message\n3. Exit')
+    choice = int(input('Enter your choice: '))
+    if choice == 1:
+        encrypted_message = encrypt(message, key)
+        print('Encrypted message: ', encrypted_message)
+    elif choice == 2:
+        decrypted_message = decrypt(message, key)
+        print('Decrypted message: ', decrypted_message)
+    elif choice == 3:
+        break
+    else:
+        print('Invalid choice')
